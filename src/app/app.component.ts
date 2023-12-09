@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { ParentService } from './services/employee.service';
+import { ParentService } from './services/parent.service';
 
 @Component({
   selector: 'app-root',
