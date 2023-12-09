@@ -1,0 +1,3 @@
+<div *ngFor="let item of arrayValue; let i = index">
+  <app-child [item]="item" (eventOutput)="handleEvent($event)"></app-child>
+</div>

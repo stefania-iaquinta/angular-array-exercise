@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="element">{{item.name}}</div>
+  <div class="element">{{item.username}}</div>
+  <button [disabled]="item.disable" type="button" (click)="handleClick(item)">download</button>
+</div>
